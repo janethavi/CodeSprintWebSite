@@ -213,7 +213,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
 			</div>
 		</div>
 	</footer>
-	<!-- End footer Area -->
+	<!-- End footer Area one -->
 
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
