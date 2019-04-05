@@ -31,7 +31,7 @@
             </head>
 
             <body>
-
+            
                 <!-- Start Header Area -->
                 <header class="header_area sticky-header">
                     <div class="main_menu">
@@ -97,7 +97,7 @@
                             <div class="row">
                                 <div class="col-lg-8 col-md-8">
                                     <h3 class="mb-30">Fill the details to Signup</h3>
-                                    <form action="#">
+                                    <form action="signup_process.php" method="post">
                                         <div class="mt-10">
                                             <input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'"
                                              required class="single-input">
@@ -106,10 +106,20 @@
                                             <input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"
                                              required class="single-input">
                                         </div>
+
                                         <div class="mt-10">
-                                            <input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"
+                                            <input type="password" name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'"
                                              required class="single-input">
+
                                         </div>
+
+
+                                        <div class="mt-10">
+                                            <input type="email" name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"
+                                             required class="single-input">
+
+                                             </div>
+                                        
                                         <div class="input-group-icon mt-10">
                                             <div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
                                             <input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'"
@@ -117,15 +127,6 @@
                                         </div>
 
                                         <div class="input-group-icon mt-10">
-                                            <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
-                                            <div class="form-select" id="default-select">
-                                                    <select>
-                                                <option>Srilanka</option>
-                                                <option>Bangladesh</option>
-                                                <option>India</option>
-                                                <option>England</option>
-                                                    </select>
-                                            </div>
                                         <br>
                                          <div class="col-lg-10 col-md-10">
                                         <button type='reset' class="genric-btn danger circle">Reset</button>
